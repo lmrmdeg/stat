@@ -1,1 +1,52 @@
-new stat for
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>商品在庫</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+	<style>
+			@page {
+		size: A4;
+		margin: 12mm 10mm;
+		padding: 0;
+		font-family: "Wenquanyi Micro Hei", "Microsoft YaHei", Simsun, sans-serif;
+		font-size: 10pt;
+		}
+	</style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+
+    <a class="navbar-brand" href="#">商品在庫</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button id="btnreload" class="btn btn-default">更新</button>
+    </form>
+
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+
+<div class="container-fluid">
+<div id="statdiv"></div>
+</div>
+
+<script data-cfasync="false" src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+<script data-cfasync="false" type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>	
+<script data-cfasync="false" type="text/javascript" src="mdeg.js?v4"></script>
+</body>
+</html>
