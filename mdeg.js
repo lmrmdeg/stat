@@ -6,7 +6,7 @@ function drawTable(docurl , sort ) {
 	var load = function(col){
 		
 		var qstr ='https://docs.google.com/spreadsheets/d/'+ docurl + '/gviz/tq?tq='				  
-		  + encodeURIComponent('select A,C,B,D,E');
+		  + encodeURIComponent('select A,C,B,D,E,F');
 		  //order by B desc
 
 		var tblDiv = document.getElementById('statdiv');
